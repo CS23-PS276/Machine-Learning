@@ -1,0 +1,31 @@
+Tentang Dataset Lansia
+
+Deskripsi
+Dataset ini berupa 2000 baris data dengan 22 kolom tentang kemampuan mobilitas, penyakit, prioritas layanan yang dibutuhkan dari caregiver, bahasa yang digunakan, dan kota/kabupaten lansia tinggal.
+
+Metode
+Data dikumpulkan dengan cara pembuatan sintetis (dummy) berdasarkan pertimbangan dan referensi statistik tertentu.
+
+Struktur
+1. id: nomor urut data
+2. Mobilitas: kemampuan lansia bergerak (1: bed rest; 2: butuh bantuan, banyak di kasur; 3: butuh bantuan, sedikit di kasur; 4: aktivitas ringan; 5: aktif bergerak)
+3. Penyakit lain: kemunculan penyakit lain pada lansia (0: tidak; 1: ada)
+4. Hipertensi: kemunculan diabetes pada lansia (0: tidak; 1: ada)
+5. Diabetes: kemunculan diabetes pada lansia (0: tidak; 1: ada)
+6. Reumatik: kemunculan reumatik pada lansia (0: tidak; 1: ada)
+7. Penyakit jantung: kemunculan penyakit jantung pada lansia (0: tidak; 1: ada)
+8. Asma: kemunculan asma pada lansia (0: tidak; 1: ada)
+9. Stroke: kemunculan stroke pada lansia (0: tidak; 1: ada)
+10. Mengurus rumah: prioritas layanan ini dibutuhkan (1: tidak butuh sama sekali; 2: tidak butuh; 3: butuh; 4: sangat butuh)
+11. Membantu pergerakan dan aktivitas fisik: prioritas layanan ini dibutuhkan (1: tidak butuh sama sekali; 2: tidak butuh; 3: butuh; 4: sangat butuh)
+12. Membantu konsumsi obat dan makanan: prioritas layanan ini dibutuhkan (1: tidak butuh sama sekali; 2: tidak butuh; 3: butuh; 4: sangat butuh)
+13. Mengecek kesehatan rutin secara mandiri: prioritas layanan ini dibutuhkan (1: tidak butuh sama sekali; 2: tidak butuh; 3: butuh; 4: sangat butuh)
+14. Mendampingi dan menjaga: prioritas layanan ini dibutuhkan (1: tidak butuh sama sekali; 2: tidak butuh; 3: butuh; 4: sangat butuh)
+15. Memasangkan alat medis khusus: prioritas layanan ini dibutuhkan (1: tidak butuh sama sekali; 2: tidak butuh; 3: butuh; 4: sangat butuh)
+16. Memeriksakan rutin ke dokter prioritas layanan ini dibutuhkan (1: tidak butuh sama sekali; 2: tidak butuh; 3: butuh; 4: sangat butuh)
+17. Indonesia: kemampuan lansia berbahasa ini (0: tidak; 1: bisa)
+18. Inggris: kemampuan lansia berbahasa ini (0: tidak; 1: bisa)
+19. Jawa: kemampuan lansia berbahasa ini (0: tidak; 1: bisa)
+20. Sunda: kemampuan lansia berbahasa ini (0: tidak; 1: bisa)
+21. Melayu: kemampuan lansia berbahasa ini (0: tidak; 1: bisa)
+22. Kota: kota tempat lansia berada

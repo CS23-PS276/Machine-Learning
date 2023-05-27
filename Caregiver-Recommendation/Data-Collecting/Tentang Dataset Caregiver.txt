@@ -1,0 +1,31 @@
+Tentang Dataset Caregiver
+
+Deskripsi
+Dataset ini berupa 2000 baris data dengan 22 kolom tentang identitas, kemampuan, gaji, penyakit, layanan yang dapat diberikan, bahasa yang digunakan, dan kota/kabupaten caregiver tinggal.
+
+Metode
+Data dikumpulkan dengan cara pembuatan sintetis (dummy) berdasarkan pertimbangan dan referensi statistik tertentu.
+
+Struktur
+1. id: nomor urut data
+2. Jenis kelamin: jenis kelamin caregiver (0: perempuan; 1: laki-laki)
+3. Pendidikan: pendidikan terakhir caregiver (1: SD; 2: SMP; 3: SMA; 4: Diploma; 5: Sarjana)
+4. Lama: Lama pengalaman sebagai caregiver, dalam tahun
+5. Jumlah lansia pernah diasuh: Jumlah lansia pernah diasuh, sebagai caregiver maupun bukan
+6. Umur: umur caregiver, dalam tahun
+7. Keahlian: tingkat keahlian caregiver, berupa persentase kemampuan menangani 7 penyakit yang disebut di data lansia
+8. Gaji: gaji yang diinginkan caregiver
+9. Mengurus rumah: kemampuan memberikan layanan ini (0: tidak; 1: ada)
+10. Membantu pergerakan dan aktivitas fisik: kemampuan memberikan layanan ini (0: tidak; 1: ada)
+11. Membantu konsumsi obat dan makanan: kemampuan memberikan layanan ini (0: tidak; 1: ada)
+12. Mengecek kesehatan rutin secara mandiri: kemampuan memberikan layanan ini (0: tidak; 1: ada)
+13. Mendampingi dan menjaga: kemampuan memberikan layanan ini (0: tidak; 1: ada)
+14. Memasangkan alat medis khusus: kemampuan memberikan layanan ini (0: tidak; 1: ada)
+15. Memeriksakan rutin ke dokter: kemampuan memberikan layanan ini (0: tidak; 1: ada)
+16. Indonesia: kemampuan caregiver berbahasa ini (0: tidak; 1: bisa)
+17. Inggris: kemampuan caregiver berbahasa ini (0: tidak; 1: bisa)
+18. Jawa: kemampuan caregiver berbahasa ini (0: tidak; 1: bisa)
+19. Sunda: kemampuan caregiver berbahasa ini (0: tidak; 1: bisa)
+20. Melayu: kemampuan caregiver berbahasa ini (0: tidak; 1: bisa)
+21. Kota: kota tempat caregiver berada
+22. Matching: tingkat kesesuaian caregiver dengan lansia (0 sampai 1)

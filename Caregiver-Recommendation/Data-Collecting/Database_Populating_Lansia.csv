@@ -1,0 +1,4 @@
+id,User_id, Nama,Tanggal Lahir,Hubungan,Jenis kelamin,Tinggi,Berat,Mobilitas,Penyakit lain,Hipertensi,Diabetes,Reumatik,Penyakit jantung,Asma,Stroke,Mengurus rumah,Membantu pergerakan dan aktivitas fisik,Membantu konsumsi obat dan makanan,Mengecek kesehatan rutin secara mandiri,Mendampingi dan menjaga,Memasangkan alat medis khusus,Memeriksakan rutin ke dokter,Indonesia,Inggris,Jawa,Sunda,Melayu,Kota
+1,1,Abdul Narimanda,9/11/1940,3,1,152,75,1,0,0,0,0,0,0,0,3,4,3,2,4,1,1,1,1,1,1,0,KABUPATEN PEMALANG
+2,1,Frisaha Triashafira,11/5/1963,3,0,151,60,2,1,1,0,0,0,0,0,3,3,4,2,4,3,3,0,0,0,1,0,KABUPATEN NDUGA
+3,2,Hilyah Arfianti,10/6/1934,5,0,152,54,1,0,1,0,1,0,0,1,4,1,1,4,1,4,4,1,0,1,1,0,KOTA MAKASSAR

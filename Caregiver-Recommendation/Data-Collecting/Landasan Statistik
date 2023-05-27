@@ -1,0 +1,41 @@
+Penyakit
+1. 37,8% hipertensi, 22,9% diabetes, 11,9% rematik, 11,4% penyakit jantung, 10,4% asma, lainnya 10%
+   (https://databoks.katadata.co.id/datapublish/2022/05/30/ini-penyakit-kronis-yang-banyak-diderita-lansia-indonesia)
+2. hipertensi 69.5%, stroke 50,2%, diabetes mellitus 6%, penyakit ginjal kronis 8,23%, penyakit jantung 4,6%,
+   (https://repository.unair.ac.id/102964/4/4.%20BAB%20I%20PENDAHULUAN%20.pdf)
+Decision:
+38% hipertensi, 23% diabetes, 12% rematik, 11% penyakit jantung, 10% asma, stroke 27% (hipertensi_sumber1/ hipertensi_sumber2 * stroke_sumber2)
+
+Bahasa
+1. https://www.detik.com/edu/detikpedia/d-6653284/7-bahasa-daerah-dengan-jumlah-penutur-terbanyak-di-indonesia-ini-daftarnya
+Decision:
+Bahasa Indonesia, Inggris, Jawa, Sunda, Melayu
+
+Gender Caregiver
+1. https://tradingeconomics.com/indonesia/labor-force-female-percent-of-total-labor-force-wb-data.html#:~:text=Labor%20force%2C%20female%20(%25%20of,compiled%20from%20officially%20recognized%20sources.
+Decision:
+Perempuan 39.47%, Laki-laki 60.53%
+
+Pendidikan Caregiver
+1. BPS, Sensus Penduduk 2020
+Decision:
+SD 26.50%, SMP 20.00%, SMA 20.00%, Diploma 2.75%, Universitas 8.30%, 22.45% sisanya dirandom dan masuk ke SD
+
+Umur Caregiver
+Usia rata-rata pekerja 21 sampai 39
+
+Lama
+Asumsi rata-ata mengurus paling awal sejak usia 20
+0 sampai (umur-20)
+
+Keahlian
+Round ((random 0 sampai 7)/7)
+
+Gaji
+Round (random 500.000 sampai 2.000.000)
+
+Matching
+Euclidean Distance dengan mengecualikan data gaji dan kota pada caregiver; mobilisasi, penyakit lainnya, dan kota pada lansia.
+
+Kota
+https://github.com/vermaysha/laravel-wilayah-indonesia/blob/master/resources/csv/cities.csv

@@ -35,7 +35,7 @@ Gaji
 Round (random 500.000 sampai 2.000.000)
 
 Matching
-Euclidean Distance dengan mengecualikan data gaji dan kota pada caregiver; mobilisasi, penyakit lainnya, dan kota pada lansia.
+Euclidean Distance antara data numerik caregiver dan lansia dengan mengecualikan data gaji pada caregiver; mobilisasi dan penyakit lainnya pada lansia.
 
 Kota
 https://github.com/vermaysha/laravel-wilayah-indonesia/blob/master/resources/csv/cities.csv

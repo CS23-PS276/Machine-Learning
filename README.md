@@ -1,2 +1,64 @@
 # Machine-Learning
 Machine Learning Repository for CS23-PS276 Bangkit Capstone Project "Sahabat Lansia"
+
+# Dataset Collection
+- [Ketentuan Synthetic Data Generation](Caregiver-Recommendation/Data-Collecting/Landasan_Statistik)
+- [Caregiver and Lansia Dataset](https://drive.google.com/drive/folders/1ZRUIHIf0sd1Qo0detEMIWP_2Hy1VF5N9?usp=sharing)
+
+# Model Development Notebook
+[Caregiver Recommendation System](Caregiver-Recommendation/Model-Development/Newest-Model/14_6_Model_Used_2_Model.ipynb)
+
+# Model Architecture
+Numerical Model
+<p align="center">
+  <img src="Caregiver-Recommendation/Model-Development/Newest-Model/caregiver_model.png" alt="Numerical Model" width="50%" height="50%"/>
+</p>
+City Embedding Model
+<p align="center">
+  <img src="Caregiver-Recommendation/Model-Development/Newest-Model/model_city.png" alt="City Embedding Model" />
+</p>
+Article Model
+
+# API URL
+- [caregiver-all-function](https://caregiver-all-function-jo6twt65na-et.a.run.app)
+- [function-article](https://function-article-jo6twt65na-et.a.run.app)
+
+# Flow
+Caregiver Recsys Flow
+![Caregiver Recsys Flow](https://github.com/CS23-PS276/Machine-Learning/assets/96944447/dc3caa29-8710-437f-b77a-fbae79459330)
+
+Article Recsys Flow
+
+# Postman Test
+Caregiver Recsys
+- Open Postman
+- Fill URL Request bar with https://caregiver-all-function-jo6twt65na-et.a.run.app
+- Select method POST
+- Go to Header tab and add key-value Content-Type: application/JSON
+- Go to Body tab and select raw
+- Fill the Body code with input
+- Example input:
+{
+  "Mobilitas":2,
+  "Penyakitlain":0,
+  "Hipertensi":0,
+  "Diabetes":1,
+  "Reumatik":0,
+  "Penyakitjantung":0,
+  "Asma":0,
+  "Stroke":1,
+  "Mengurusrumah":1,
+  "Membantupergerakandanaktivitasfisik":4,
+  "Membantukonsumsiobatdanmakanan":4,
+  "Mengecekkesehatanrutinsecaramandiri":1,
+  "Mendampingidanmenjaga":4,
+  "Memasangkanalatmediskhusus":1,
+  "Memeriksakanrutinkedokter":1,
+  "Indonesia":0,
+  "Inggris":0,
+  "Jawa":1,
+  "Sunda":0,
+  "Melayu":0,
+  "Kota": "Kabupaten Ngawi"
+}
+- Send the request

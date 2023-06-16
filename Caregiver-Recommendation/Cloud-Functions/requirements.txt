@@ -1,0 +1,8 @@
+functions-framework==3.*
+pandas
+matplotlib
+numpy
+scikit-learn
+tensorflow
+tensorflow_hub
+google-cloud-storage

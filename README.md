@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/CS23-PS276/Machine-Learning/assets/96944447/967b33e5-b130-4d0f-8bae-90c9ac3737c2" alt="logo sahabat lansia" height="180" />
+</p>
+
 # Machine-Learning
 Machine Learning Repository for CS23-PS276 Bangkit Capstone Project "Sahabat Lansia"
 

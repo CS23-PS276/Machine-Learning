@@ -26,6 +26,10 @@ Article Model
   <img src="Artikel-Recommendation/model_layers.png" width="50%" />
 </p>
 
+# Cloud Functions
+- [Caregiver Cloud Functions](Caregiver-Recommendation/Cloud-Functions)
+- [Article Cloud Functions](https://github.com/CS23-PS276/Machine-Learning/tree/2ba910e6de489cfe570260df3c5e055cfa85aabb/Artikel-Recommendation/Cloud%20Functions)
+
 # API URL
 - [caregiver-all-function](https://caregiver-all-function-jo6twt65na-et.a.run.app)
 - [function-article](https://function-article-jo6twt65na-et.a.run.app)
